@@ -1,0 +1,464 @@
+error when connecting to db: { Error: ER_ACCESS_DENIED_ERROR: Access denied for user ''@'localhost' (using password: NO)
+    at Handshake.Sequence._packetToError (/var/www/game-on-project/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Handshake.ErrorPacket (/var/www/game-on-project/node_modules/mysql/lib/protocol/sequences/Handshake.js:103:18)
+    at Protocol._parsePacket (/var/www/game-on-project/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/var/www/game-on-project/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/var/www/game-on-project/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/var/www/game-on-project/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+    at readableAddChunk (_stream_readable.js:178:18)
+    at Socket.Readable.push (_stream_readable.js:136:10)
+    at TCP.onread (net.js:561:20)
+    --------------------
+    at Protocol._enqueue (/var/www/game-on-project/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/var/www/game-on-project/node_modules/mysql/lib/protocol/Protocol.js:52:41)
+    at Connection.connect (/var/www/game-on-project/node_modules/mysql/lib/Connection.js:130:18)
+    at Timeout.handleDisconnect [as _onTimeout] (/var/www/game-on-project/routes/index.js:61:14)
+    at ontimeout (timers.js:386:14)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+  code: 'ER_ACCESS_DENIED_ERROR',
+  errno: 1045,
+  sqlState: '28000',
+  fatal: true }
+error when connecting to db: { Error: ER_ACCESS_DENIED_ERROR: Access denied for user ''@'localhost' (using password: NO)
+    at Handshake.Sequence._packetToError (/var/www/game-on-project/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Handshake.ErrorPacket (/var/www/game-on-project/node_modules/mysql/lib/protocol/sequences/Handshake.js:103:18)
+    at Protocol._parsePacket (/var/www/game-on-project/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/var/www/game-on-project/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/var/www/game-on-project/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/var/www/game-on-project/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+    at readableAddChunk (_stream_readable.js:178:18)
+    at Socket.Readable.push (_stream_readable.js:136:10)
+    at TCP.onread (net.js:561:20)
+    --------------------
+    at Protocol._enqueue (/var/www/game-on-project/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/var/www/game-on-project/node_modules/mysql/lib/protocol/Protocol.js:52:41)
+    at Connection.connect (/var/www/game-on-project/node_modules/mysql/lib/Connection.js:130:18)
+    at Timeout.handleDisconnect [as _onTimeout] (/var/www/game-on-project/routes/index.js:61:14)
+    at ontimeout (timers.js:386:14)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+  code: 'ER_ACCESS_DENIED_ERROR',
+  errno: 1045,
+  sqlState: '28000',
+  fatal: true }
+error when connecting to db: { Error: ER_ACCESS_DENIED_ERROR: Access denied for user ''@'localhost' (using password: NO)
+    at Handshake.Sequence._packetToError (/var/www/game-on-project/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Handshake.ErrorPacket (/var/www/game-on-project/node_modules/mysql/lib/protocol/sequences/Handshake.js:103:18)
+    at Protocol._parsePacket (/var/www/game-on-project/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/var/www/game-on-project/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/var/www/game-on-project/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/var/www/game-on-project/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+    at readableAddChunk (_stream_readable.js:178:18)
+    at Socket.Readable.push (_stream_readable.js:136:10)
+    at TCP.onread (net.js:561:20)
+    --------------------
+    at Protocol._enqueue (/var/www/game-on-project/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/var/www/game-on-project/node_modules/mysql/lib/protocol/Protocol.js:52:41)
+    at Connection.connect (/var/www/game-on-project/node_modules/mysql/lib/Connection.js:130:18)
+    at Timeout.handleDisconnect [as _onTimeout] (/var/www/game-on-project/routes/index.js:61:14)
+    at ontimeout (timers.js:386:14)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+  code: 'ER_ACCESS_DENIED_ERROR',
+  errno: 1045,
+  sqlState: '28000',
+  fatal: true }
+error when connecting to db: { Error: ER_ACCESS_DENIED_ERROR: Access denied for user ''@'localhost' (using password: NO)
+    at Handshake.Sequence._packetToError (/var/www/game-on-project/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Handshake.ErrorPacket (/var/www/game-on-project/node_modules/mysql/lib/protocol/sequences/Handshake.js:103:18)
+    at Protocol._parsePacket (/var/www/game-on-project/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/var/www/game-on-project/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/var/www/game-on-project/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/var/www/game-on-project/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+    at readableAddChunk (_stream_readable.js:178:18)
+    at Socket.Readable.push (_stream_readable.js:136:10)
+    at TCP.onread (net.js:561:20)
+    --------------------
+    at Protocol._enqueue (/var/www/game-on-project/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/var/www/game-on-project/node_modules/mysql/lib/protocol/Protocol.js:52:41)
+    at Connection.connect (/var/www/game-on-project/node_modules/mysql/lib/Connection.js:130:18)
+    at Timeout.handleDisconnect [as _onTimeout] (/var/www/game-on-project/routes/index.js:61:14)
+    at ontimeout (timers.js:386:14)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+  code: 'ER_ACCESS_DENIED_ERROR',
+  errno: 1045,
+  sqlState: '28000',
+  fatal: true }
+error when connecting to db: { Error: ER_ACCESS_DENIED_ERROR: Access denied for user ''@'localhost' (using password: NO)
+    at Handshake.Sequence._packetToError (/var/www/game-on-project/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Handshake.ErrorPacket (/var/www/game-on-project/node_modules/mysql/lib/protocol/sequences/Handshake.js:103:18)
+    at Protocol._parsePacket (/var/www/game-on-project/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/var/www/game-on-project/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/var/www/game-on-project/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/var/www/game-on-project/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+    at readableAddChunk (_stream_readable.js:178:18)
+    at Socket.Readable.push (_stream_readable.js:136:10)
+    at TCP.onread (net.js:561:20)
+    --------------------
+    at Protocol._enqueue (/var/www/game-on-project/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/var/www/game-on-project/node_modules/mysql/lib/protocol/Protocol.js:52:41)
+    at Connection.connect (/var/www/game-on-project/node_modules/mysql/lib/Connection.js:130:18)
+    at Timeout.handleDisconnect [as _onTimeout] (/var/www/game-on-project/routes/index.js:61:14)
+    at ontimeout (timers.js:386:14)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+  code: 'ER_ACCESS_DENIED_ERROR',
+  errno: 1045,
+  sqlState: '28000',
+  fatal: true }
+error when connecting to db: { Error: ER_ACCESS_DENIED_ERROR: Access denied for user ''@'localhost' (using password: NO)
+    at Handshake.Sequence._packetToError (/var/www/game-on-project/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Handshake.ErrorPacket (/var/www/game-on-project/node_modules/mysql/lib/protocol/sequences/Handshake.js:103:18)
+    at Protocol._parsePacket (/var/www/game-on-project/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/var/www/game-on-project/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/var/www/game-on-project/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/var/www/game-on-project/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+    at readableAddChunk (_stream_readable.js:178:18)
+    at Socket.Readable.push (_stream_readable.js:136:10)
+    at TCP.onread (net.js:561:20)
+    --------------------
+    at Protocol._enqueue (/var/www/game-on-project/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/var/www/game-on-project/node_modules/mysql/lib/protocol/Protocol.js:52:41)
+    at Connection.connect (/var/www/game-on-project/node_modules/mysql/lib/Connection.js:130:18)
+    at Timeout.handleDisconnect [as _onTimeout] (/var/www/game-on-project/routes/index.js:61:14)
+    at ontimeout (timers.js:386:14)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+  code: 'ER_ACCESS_DENIED_ERROR',
+  errno: 1045,
+  sqlState: '28000',
+  fatal: true }
+error when connecting to db: { Error: ER_ACCESS_DENIED_ERROR: Access denied for user ''@'localhost' (using password: NO)
+    at Handshake.Sequence._packetToError (/var/www/game-on-project/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Handshake.ErrorPacket (/var/www/game-on-project/node_modules/mysql/lib/protocol/sequences/Handshake.js:103:18)
+    at Protocol._parsePacket (/var/www/game-on-project/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/var/www/game-on-project/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/var/www/game-on-project/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/var/www/game-on-project/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+    at readableAddChunk (_stream_readable.js:178:18)
+    at Socket.Readable.push (_stream_readable.js:136:10)
+    at TCP.onread (net.js:561:20)
+    --------------------
+    at Protocol._enqueue (/var/www/game-on-project/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/var/www/game-on-project/node_modules/mysql/lib/protocol/Protocol.js:52:41)
+    at Connection.connect (/var/www/game-on-project/node_modules/mysql/lib/Connection.js:130:18)
+    at Timeout.handleDisconnect [as _onTimeout] (/var/www/game-on-project/routes/index.js:61:14)
+    at ontimeout (timers.js:386:14)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+  code: 'ER_ACCESS_DENIED_ERROR',
+  errno: 1045,
+  sqlState: '28000',
+  fatal: true }
+error when connecting to db: { Error: ER_ACCESS_DENIED_ERROR: Access denied for user ''@'localhost' (using password: NO)
+    at Handshake.Sequence._packetToError (/var/www/game-on-project/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Handshake.ErrorPacket (/var/www/game-on-project/node_modules/mysql/lib/protocol/sequences/Handshake.js:103:18)
+    at Protocol._parsePacket (/var/www/game-on-project/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/var/www/game-on-project/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/var/www/game-on-project/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/var/www/game-on-project/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+    at readableAddChunk (_stream_readable.js:178:18)
+    at Socket.Readable.push (_stream_readable.js:136:10)
+    at TCP.onread (net.js:561:20)
+    --------------------
+    at Protocol._enqueue (/var/www/game-on-project/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/var/www/game-on-project/node_modules/mysql/lib/protocol/Protocol.js:52:41)
+    at Connection.connect (/var/www/game-on-project/node_modules/mysql/lib/Connection.js:130:18)
+    at Timeout.handleDisconnect [as _onTimeout] (/var/www/game-on-project/routes/index.js:61:14)
+    at ontimeout (timers.js:386:14)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+  code: 'ER_ACCESS_DENIED_ERROR',
+  errno: 1045,
+  sqlState: '28000',
+  fatal: true }
+error when connecting to db: { Error: ER_ACCESS_DENIED_ERROR: Access denied for user ''@'localhost' (using password: NO)
+    at Handshake.Sequence._packetToError (/var/www/game-on-project/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Handshake.ErrorPacket (/var/www/game-on-project/node_modules/mysql/lib/protocol/sequences/Handshake.js:103:18)
+    at Protocol._parsePacket (/var/www/game-on-project/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/var/www/game-on-project/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/var/www/game-on-project/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/var/www/game-on-project/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+    at readableAddChunk (_stream_readable.js:178:18)
+    at Socket.Readable.push (_stream_readable.js:136:10)
+    at TCP.onread (net.js:561:20)
+    --------------------
+    at Protocol._enqueue (/var/www/game-on-project/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/var/www/game-on-project/node_modules/mysql/lib/protocol/Protocol.js:52:41)
+    at Connection.connect (/var/www/game-on-project/node_modules/mysql/lib/Connection.js:130:18)
+    at Timeout.handleDisconnect [as _onTimeout] (/var/www/game-on-project/routes/index.js:61:14)
+    at ontimeout (timers.js:386:14)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+  code: 'ER_ACCESS_DENIED_ERROR',
+  errno: 1045,
+  sqlState: '28000',
+  fatal: true }
+error when connecting to db: { Error: ER_ACCESS_DENIED_ERROR: Access denied for user ''@'localhost' (using password: NO)
+    at Handshake.Sequence._packetToError (/var/www/game-on-project/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Handshake.ErrorPacket (/var/www/game-on-project/node_modules/mysql/lib/protocol/sequences/Handshake.js:103:18)
+    at Protocol._parsePacket (/var/www/game-on-project/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/var/www/game-on-project/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/var/www/game-on-project/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/var/www/game-on-project/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+    at readableAddChunk (_stream_readable.js:178:18)
+    at Socket.Readable.push (_stream_readable.js:136:10)
+    at TCP.onread (net.js:561:20)
+    --------------------
+    at Protocol._enqueue (/var/www/game-on-project/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/var/www/game-on-project/node_modules/mysql/lib/protocol/Protocol.js:52:41)
+    at Connection.connect (/var/www/game-on-project/node_modules/mysql/lib/Connection.js:130:18)
+    at Timeout.handleDisconnect [as _onTimeout] (/var/www/game-on-project/routes/index.js:61:14)
+    at ontimeout (timers.js:386:14)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+  code: 'ER_ACCESS_DENIED_ERROR',
+  errno: 1045,
+  sqlState: '28000',
+  fatal: true }
+error when connecting to db: { Error: ER_ACCESS_DENIED_ERROR: Access denied for user ''@'localhost' (using password: NO)
+    at Handshake.Sequence._packetToError (/var/www/game-on-project/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Handshake.ErrorPacket (/var/www/game-on-project/node_modules/mysql/lib/protocol/sequences/Handshake.js:103:18)
+    at Protocol._parsePacket (/var/www/game-on-project/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/var/www/game-on-project/node_modules/mysql/lib/protocol/Parser.js:75:12)
+    at Protocol.write (/var/www/game-on-project/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/var/www/game-on-project/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+    at readableAddChunk (_stream_readable.js:178:18)
+    at Socket.Readable.push (_stream_readable.js:136:10)
+    at TCP.onread (net.js:561:20)
+    --------------------
+    at Protocol._enqueue (/var/www/game-on-project/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/var/www/game-on-project/node_modules/mysql/lib/protocol/Protocol.js:52:41)
+    at Connection.connect (/var/www/game-on-project/node_modules/mysql/lib/Connection.js:130:18)
+    at Timeout.handleDisconnect [as _onTimeout] (/var/www/game-on-project/routes/index.js:61:14)
+    at ontimeout (timers.js:386:14)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+  code: 'ER_ACCESS_DENIED_ERROR',
+  errno: 1045,
+  sqlState: '28000',
+  fatal: true }
+<-- HandshakeInitializationPacket
+HandshakeInitializationPacket {
+  protocolVersion: 10,
+  serverVersion: '5.7.24-0ubuntu0.16.04.1',
+  threadId: 70815,
+  scrambleBuff1: <Buffer 03 22 25 44 14 1b 3e 46>,
+  filler1: <Buffer 00>,
+  serverCapabilities1: 63487,
+  serverLanguage: 8,
+  serverStatus: 2,
+  serverCapabilities2: 33279,
+  scrambleLength: 21,
+  filler2: <Buffer 00 00 00 00 00 00 00 00 00 00>,
+  scrambleBuff2: <Buffer 0c 05 2a 25 6a 38 6d 1a 19 1d 6a 7f>,
+  filler3: <Buffer 00>,
+  pluginData: 'mysql_native_password',
+  protocol41: true }
+
+--> ClientAuthenticationPacket
+ClientAuthenticationPacket {
+  clientFlags: 455631,
+  maxPacketSize: 0,
+  charsetNumber: 33,
+  filler: undefined,
+  user: 'x',
+  scrambleBuff: <Buffer da 3d e9 b8 d8 df ac 49 55 fe 63 95 1b 1d e3 58 14 03 5e ec>,
+  database: 'game_on',
+  protocol41: true }
+
+<-- OkPacket
+OkPacket {
+  fieldCount: 0,
+  affectedRows: 0,
+  insertId: 0,
+  serverStatus: 2,
+  warningCount: 0,
+  message: '',
+  protocol41: true,
+  changedRows: 0 }
+
+<-- HandshakeInitializationPacket
+HandshakeInitializationPacket {
+  protocolVersion: 10,
+  serverVersion: '5.7.24-0ubuntu0.16.04.1',
+  threadId: 70816,
+  scrambleBuff1: <Buffer 13 71 30 69 51 03 4b 5d>,
+  filler1: <Buffer 00>,
+  serverCapabilities1: 63487,
+  serverLanguage: 8,
+  serverStatus: 2,
+  serverCapabilities2: 33279,
+  scrambleLength: 21,
+  filler2: <Buffer 00 00 00 00 00 00 00 00 00 00>,
+  scrambleBuff2: <Buffer 4b 46 77 52 3b 5f 0e 01 35 11 19 04>,
+  filler3: <Buffer 00>,
+  pluginData: 'mysql_native_password',
+  protocol41: true }
+
+--> ClientAuthenticationPacket
+ClientAuthenticationPacket {
+  clientFlags: 455631,
+  maxPacketSize: 0,
+  charsetNumber: 33,
+  filler: undefined,
+  user: 'x',
+  scrambleBuff: <Buffer 2b 55 52 22 b8 88 cb a1 7f 98 93 33 60 3a 1f b4 cc 3d 4c 59>,
+  database: 'game_on',
+  protocol41: true }
+
+<-- OkPacket
+OkPacket {
+  fieldCount: 0,
+  affectedRows: 0,
+  insertId: 0,
+  serverStatus: 2,
+  warningCount: 0,
+  message: '',
+  protocol41: true,
+  changedRows: 0 }
+
+<-- HandshakeInitializationPacket
+HandshakeInitializationPacket {
+  protocolVersion: 10,
+  serverVersion: '5.7.24-0ubuntu0.16.04.1',
+  threadId: 70817,
+  scrambleBuff1: <Buffer 7b 06 5b 76 17 06 36 22>,
+  filler1: <Buffer 00>,
+  serverCapabilities1: 63487,
+  serverLanguage: 8,
+  serverStatus: 2,
+  serverCapabilities2: 33279,
+  scrambleLength: 21,
+  filler2: <Buffer 00 00 00 00 00 00 00 00 00 00>,
+  scrambleBuff2: <Buffer 2e 44 31 3b 35 72 01 3a 4c 7f 66 63>,
+  filler3: <Buffer 00>,
+  pluginData: 'mysql_native_password',
+  protocol41: true }
+
+--> ClientAuthenticationPacket
+ClientAuthenticationPacket {
+  clientFlags: 455631,
+  maxPacketSize: 0,
+  charsetNumber: 33,
+  filler: undefined,
+  user: 'x',
+  scrambleBuff: <Buffer 27 11 c3 fc 46 a8 b0 4d 34 31 6f f2 0a 40 2c d3 7a c4 b1 0c>,
+  database: 'game_on',
+  protocol41: true }
+
+<-- OkPacket
+OkPacket {
+  fieldCount: 0,
+  affectedRows: 0,
+  insertId: 0,
+  serverStatus: 2,
+  warningCount: 0,
+  message: '',
+  protocol41: true,
+  changedRows: 0 }
+
+<-- HandshakeInitializationPacket
+HandshakeInitializationPacket {
+  protocolVersion: 10,
+  serverVersion: '5.7.24-0ubuntu0.16.04.1',
+  threadId: 70818,
+  scrambleBuff1: <Buffer 44 1f 7d 57 76 0c 3d 17>,
+  filler1: <Buffer 00>,
+  serverCapabilities1: 63487,
+  serverLanguage: 8,
+  serverStatus: 2,
+  serverCapabilities2: 33279,
+  scrambleLength: 21,
+  filler2: <Buffer 00 00 00 00 00 00 00 00 00 00>,
+  scrambleBuff2: <Buffer 04 49 01 11 74 6e 0f 1e 1c 50 29 2c>,
+  filler3: <Buffer 00>,
+  pluginData: 'mysql_native_password',
+  protocol41: true }
+
+--> ClientAuthenticationPacket
+ClientAuthenticationPacket {
+  clientFlags: 455631,
+  maxPacketSize: 0,
+  charsetNumber: 33,
+  filler: undefined,
+  user: 'x',
+  scrambleBuff: <Buffer 6c 6e 36 11 b3 ca 1b bd 8d b9 ef 41 ab 12 5e 36 1d b7 7c ec>,
+  database: 'game_on',
+  protocol41: true }
+
+<-- OkPacket
+OkPacket {
+  fieldCount: 0,
+  affectedRows: 0,
+  insertId: 0,
+  serverStatus: 2,
+  warningCount: 0,
+  message: '',
+  protocol41: true,
+  changedRows: 0 }
+
+<-- HandshakeInitializationPacket
+HandshakeInitializationPacket {
+  protocolVersion: 10,
+  serverVersion: '5.7.24-0ubuntu0.16.04.1',
+  threadId: 70822,
+  scrambleBuff1: <Buffer 0f 6c 34 10 70 0a 28 72>,
+  filler1: <Buffer 00>,
+  serverCapabilities1: 63487,
+  serverLanguage: 8,
+  serverStatus: 2,
+  serverCapabilities2: 33279,
+  scrambleLength: 21,
+  filler2: <Buffer 00 00 00 00 00 00 00 00 00 00>,
+  scrambleBuff2: <Buffer 5c 07 52 2b 23 0f 68 40 38 11 08 2f>,
+  filler3: <Buffer 00>,
+  pluginData: 'mysql_native_password',
+  protocol41: true }
+
+--> ClientAuthenticationPacket
+ClientAuthenticationPacket {
+  clientFlags: 455631,
+  maxPacketSize: 0,
+  charsetNumber: 33,
+  filler: undefined,
+  user: 'x',
+  scrambleBuff: <Buffer 6a 70 14 9e 74 df 81 7a 82 86 42 4a 68 84 f6 5c a7 5f 0f 25>,
+  database: 'game_on',
+  protocol41: true }
+
+<-- OkPacket
+OkPacket {
+  fieldCount: 0,
+  affectedRows: 0,
+  insertId: 0,
+  serverStatus: 2,
+  warningCount: 0,
+  message: '',
+  protocol41: true,
+  changedRows: 0 }
+

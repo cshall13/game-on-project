@@ -1,12 +1,18 @@
+html {
+  overflow: hidden;
+  height: 100%
+}
+
 body {
   font: 14px Verdana, Helvetica, Arial, sans-serif;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
   background-color: #333335 ;
   background: linear-gradient(black, #333335);
+  overflow: auto;
 }
 ::-webkit-scrollbar {
     width: 0;  /* remove scrollbar space */
